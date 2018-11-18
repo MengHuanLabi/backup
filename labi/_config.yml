@@ -7,7 +7,7 @@ title: Rua ! Rua ! Rua !
 subtitle: -=-
 description: 蜡笔蜡笔蜡笔
 keywords:
-author: DDDDDDDDDDDDDDDDD
+author: DaDa
 language:
 timezone:
 
@@ -117,4 +117,4 @@ live2d:
     width: 150
     height: 300
   mobile:
-    show: true
+    show: false

@@ -3,7 +3,7 @@
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="DDDDDDDDDDDDDDDDD">
+    <meta name="author" content="DaDa">
     
     <meta name="description" content="蜡笔蜡笔蜡笔">
     
@@ -37,7 +37,7 @@
       if (document.images) {
         var avatar = new Image();
         avatar.src = '/imgs/dalao.jpg'
-        var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg,group.jpg'.split(',')
+        var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
         var previewsPreLoad = []
         for(var i = 0; i < length; i++) {
           previewsPreLoad.push(new Image())
@@ -122,20 +122,50 @@
                 
                 
                 
-                <li class="">
-                    <a href="/categories">
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
                         <i class="fa fa-list"></i>分类
                     </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/categories/合影/">合影</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/欧皇事件/">欧皇事件</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
                 </li>
                 
                 
                 
                 
                 
-                <li class="">
-                    <a href="/tags">
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
                         <i class="fa fa-tags"></i>标签
                     </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/tags/合影/">合影</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/ee今天又出货了/">ee今天又出货了</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
                 </li>
                 
                 
@@ -143,7 +173,7 @@
                 
                 <li class="">
                     <a href="/about">
-                        <i class="fa fa-user"></i>关于我
+                        <i class="fa fa-user"></i>关于
                     </a>
                 </li>
                 
@@ -161,89 +191,14 @@
     <!-- TODO 添加关闭公告框功能 -->
     <button type="button" class="close" data-dismiss="alert">×</button>
     <!-- 这里自行配置公告内容 -->
-    梦幻拉比聊天室<strong>(A           A)</strong>
+    这里是 梦幻拉比聊天室
     <br>
-    没有说明请看
+    然后没有说明 <strong>(A           A)</strong>
     <!-- 自行配置公告内容结束 -->
 </div>
 
 <div id="article-list">
      
-     
-     <div class="article well clearfix article-body article-excerpt" data-aos="flip-up">
-    
-    <div class="data-article hidden-xs">
-        <span class="month">11月</span>
-        <span class="day">18</span>
-    </div>
-    <!-- 大型设备文章 -->
-    <section class="hidden-xs">
-        <div class="title-article">
-            <h1>
-                <a href="/2018/11/18/11-18/">
-                    <span>11-18</span>
-                </a>
-            </h1>
-        </div>
-        <div class="tag-article">
-            
-            
-            <!-- TODO 添加评论统计 -->
-            <!--<span class="label label-gal">
-                <i class="fa fa-comments"></i>
-                <a href="/2018/11/18/11-18/#comments">739</a>
-            </span>-->
-        </div>
-        <div class="alert alert-gal article-body content-article">
-            <div class="item">
-                <a href="/2018/11/18/11-18/">
-                    <div class="img">
-                        
-                        <img src="/imgs/preview/preview3.jpg" alt="11-18">
-                    </div>
-                    <div class="info">
-                        
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="visible-xs">
-        <div class="title-article">
-            <center>
-                <h4>
-                    <a href="/2018/11/18/11-18/">
-                        <span>11-18</span>
-                    </a>
-                </h4>
-            </center>
-        </div>
-        <p></p>
-        <center>
-            <i class="fa fa-calendar"></i> 2018-11-18
-        </center>
-        <p></p>
-        <p></p>
-        <center>
-            
-            
-        </center>
-        <p></p>
-        <div class="alert alert-gal article-body content-article">
-            <p style="text-align: center;">
-                <a href="/2018/11/18/11-18/">
-                    
-                    <img src="/imgs/preview/preview3.jpg" alt="11-18">
-                </a>
-            </p>
-        </div>
-        
-        <a class="btn btn-danger pull-right read-more btn-block" href="/2018/11/18/11-18/">
-            阅读全文
-            <!--<span class="badge">739</span>-->
-        </a>
-    </section>
-</div>
      
      <div class="article well clearfix article-body article-excerpt" data-aos="flip-up">
     
@@ -256,11 +211,18 @@
         <div class="title-article">
             <h1>
                 <a href="/2018/11/17/11-17/">
-                    <span>11-17</span>
+                    <span>11-17 EE 出货了</span>
                 </a>
             </h1>
         </div>
         <div class="tag-article">
+            
+            <span class="label label-gal">
+                <i class="fa fa-tags"></i>
+                
+                <a href="/tags/ee今天又出货了/">ee今天又出货了</a>
+                
+            </span>
             
             
             <!-- TODO 添加评论统计 -->
@@ -274,7 +236,7 @@
                 <a href="/2018/11/17/11-17/">
                     <div class="img">
                         
-                        <img src="/imgs/preview/preview3.jpg" alt="11-17">
+                        <img src="/pic/luna.jpg" alt="11-17 EE 出货了">
                     </div>
                     <div class="info">
                         
@@ -288,7 +250,7 @@
             <center>
                 <h4>
                     <a href="/2018/11/17/11-17/">
-                        <span>11-17</span>
+                        <span>11-17 EE 出货了</span>
                     </a>
                 </h4>
             </center>
@@ -300,6 +262,11 @@
         <p></p>
         <p></p>
         <center>
+            
+            <i class="fa fa-tags"></i>
+            
+            <a href="/tags/ee今天又出货了/">ee今天又出货了</a>
+            
             
             
         </center>
@@ -308,87 +275,12 @@
             <p style="text-align: center;">
                 <a href="/2018/11/17/11-17/">
                     
-                    <img src="/imgs/preview/group.jpg" alt="11-17">
+                    <img src="/pic/luna.jpg" alt="11-17 EE 出货了">
                 </a>
             </p>
         </div>
         
         <a class="btn btn-danger pull-right read-more btn-block" href="/2018/11/17/11-17/">
-            阅读全文
-            <!--<span class="badge">739</span>-->
-        </a>
-    </section>
-</div>
-     
-     <div class="article well clearfix article-body article-excerpt" data-aos="flip-up">
-    
-    <div class="data-article hidden-xs">
-        <span class="month">11月</span>
-        <span class="day">17</span>
-    </div>
-    <!-- 大型设备文章 -->
-    <section class="hidden-xs">
-        <div class="title-article">
-            <h1>
-                <a href="/2018/11/17/日月神剑/">
-                    <span>11-17</span>
-                </a>
-            </h1>
-        </div>
-        <div class="tag-article">
-            
-            
-            <!-- TODO 添加评论统计 -->
-            <!--<span class="label label-gal">
-                <i class="fa fa-comments"></i>
-                <a href="/2018/11/17/日月神剑/#comments">739</a>
-            </span>-->
-        </div>
-        <div class="alert alert-gal article-body content-article">
-            <div class="item">
-                <a href="/2018/11/17/日月神剑/">
-                    <div class="img">
-                        
-                        <img src="/imgs/preview/preview1.jpg" alt="11-17">
-                    </div>
-                    <div class="info">
-                        
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="visible-xs">
-        <div class="title-article">
-            <center>
-                <h4>
-                    <a href="/2018/11/17/日月神剑/">
-                        <span>11-17</span>
-                    </a>
-                </h4>
-            </center>
-        </div>
-        <p></p>
-        <center>
-            <i class="fa fa-calendar"></i> 2018-11-17
-        </center>
-        <p></p>
-        <p></p>
-        <center>
-            
-            
-        </center>
-        <p></p>
-        <div class="alert alert-gal article-body content-article">
-            <p style="text-align: center;">
-                <a href="/2018/11/17/日月神剑/">
-                    
-                    <img src="/imgs/preview/preview1.jpg" alt="11-17">
-                </a>
-            </p>
-        </div>
-        
-        <a class="btn btn-danger pull-right read-more btn-block" href="/2018/11/17/日月神剑/">
             阅读全文
             <!--<span class="badge">739</span>-->
         </a>
@@ -412,6 +304,13 @@
         </div>
         <div class="tag-article">
             
+            <span class="label label-gal">
+                <i class="fa fa-tags"></i>
+                
+                <a href="/tags/合影/">合影</a>
+                
+            </span>
+            
             
             <!-- TODO 添加评论统计 -->
             <!--<span class="label label-gal">
@@ -424,7 +323,7 @@
                 <a href="/2018/11/17/合影/">
                     <div class="img">
                         
-                        <img src="/imgs/preview/preview3.jpg" alt="合影">
+                        <img src="/pic/group.jpg" alt="合影">
                     </div>
                     <div class="info">
                         
@@ -451,6 +350,11 @@
         <p></p>
         <center>
             
+            <i class="fa fa-tags"></i>
+            
+            <a href="/tags/合影/">合影</a>
+            
+            
             
         </center>
         <p></p>
@@ -458,7 +362,7 @@
             <p style="text-align: center;">
                 <a href="/2018/11/17/合影/">
                     
-                    <img src="/imgs/preview/preview3.jpg" alt="合影">
+                    <img src="/pic/group.jpg" alt="合影">
                 </a>
             </p>
         </div>
@@ -499,7 +403,7 @@
                 <a href="/2018/11/16/xixi-测试/">
                     <div class="img">
                         
-                        <img src="/imgs/preview/preview4.jpg" alt="xixi 测试">
+                        <img src="/imgs/preview/preview2.jpg" alt="xixi 测试">
                     </div>
                     <div class="info">
                         
@@ -533,7 +437,7 @@
             <p style="text-align: center;">
                 <a href="/2018/11/16/xixi-测试/">
                     
-                    <img src="/imgs/preview/group.jpg" alt="xixi 测试">
+                    <img src="/imgs/preview/preview1.jpg" alt="xixi 测试">
                 </a>
             </p>
         </div>
@@ -587,7 +491,7 @@
     <div class="panel panel-gal" data-aos="flip-right" data-aos-duration="3000">
         <div class="panel-heading" style="text-align: center">
             <i class="fa fa-quote-left"></i>
-            DDDDDDDDDDDDDDDDD
+            DaDa
             <i class="fa fa-quote-right"></i>
         </div>
         <div class="author-panel text-center">
@@ -625,19 +529,7 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/11/18/11-18/">11-18</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/2018/11/17/11-17/">11-17</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/2018/11/17/日月神剑/">11-17</a>
+                    <a href="/2018/11/17/11-17/">11-17 EE 出货了</a>
                 </span>
             </li>
             
@@ -671,31 +563,19 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/11/17/11-17/">11-17</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/2018/11/18/11-18/">11-18</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
                     <a href="/2018/11/16/xixi-测试/">xixi 测试</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/11/17/日月神剑/">11-17</a>
+                    <a href="/2018/11/17/合影/">合影</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/11/17/合影/">合影</a>
+                    <a href="/2018/11/17/11-17/">11-17 EE 出货了</a>
                 </span>
             </li>
             
@@ -719,6 +599,10 @@
             </ul>
             <div class="tab-content">
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
+    
+    <a href="/tags/合影/" style="font-size: 11.43102821174827px;" class="tag-cloud-link">合影</a>
+    
+    <a href="/tags/ee今天又出货了/" style="font-size: 14.55053104466791px;" class="tag-cloud-link">ee今天又出货了</a>
     
 </div>
                 <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
@@ -761,7 +645,7 @@
     </div>
     <footer id="gal-footer">
     <div class="container">
-        Copyright © 2018 DDDDDDDDDDDDDDDDD Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+        Copyright © 2018 DaDa Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
     </div>
 </footer>
 
@@ -769,7 +653,7 @@
 <div id="gal-gotop">
     <i class="fa fa-angle-up"></i>
 </div>
-<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false});</script></body>
 <script src="/js/activate-power-mode.js"></script>
 <script>
 
@@ -814,7 +698,7 @@
     window.slideConfig = {
       prefix: '/imgs/slide/background',
       ext: 'jpg',
-      maxCount: '6'
+      maxCount: '10'
     }
 </script>
 <script src="/js/hs.js"></script>
@@ -823,27 +707,5 @@
 <script src="/js/oni.js"></script>
 
 
-
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-    if(window.commentConfig) {
-      window.commentConfig.id = ''
-      window.commentConfig.owner = 'MengHuanLabi'
-      window.commentConfig.repo = 'GitmentRepo'
-      window.commentConfig.client_id = '7b5369b94a87d4941550'
-      window.commentConfig.client_secret = 'f5bbcce1b14691465715d11e772d492793929385'
-      window.commentConfig.redirect_uri = ''
-    } else {
-      window.commentConfig = {
-      	id: '',
-        owner: 'MengHuanLabi',
-        repo: 'GitmentRepo',
-        client_id: '7b5369b94a87d4941550',
-        client_secret: 'f5bbcce1b14691465715d11e772d492793929385',
-        redirect_uri: ''
-      }
-    }
-</script>
-<script src="/js/comment/gitment.js"></script>
 
 </html>
